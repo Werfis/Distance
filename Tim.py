@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("6480596150:AAGiVRMNtPO5ct_98aOMr3Ubww4FqXL-iCU")
+bot = telebot.TeleBot()
 
 @bot.message_handler(func=lambda message: True)
 def repeat_message(message):
